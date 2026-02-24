@@ -1,16 +1,16 @@
 packageMetadata:
-  - repository: qlik-trial/{{template-agent}}
+  - repository: qlik-trial/fun-bag-agent
     type: docker
-    name: {{template-agent}}
+    name: fun-bag-agent
     apiComplianceConfig:
       specPaths:
         - {spec_path} ## TODO: Replace {spec_path} with actual path
     depConfig:
       pythonDepSpecs:
         - requirements.txt
-  - repository: qlik-trial/{{template-agent}}
+  - repository: qlik-trial/fun-bag-agent
     type: helm
-    name: helm/{{template-agent}}
+    name: helm/fun-bag-agent
     depConfig:
       helmDepSpecs:
-        - manifests/chart/{{template-agent}}
+        - manifests/chart/fun-bag-agent

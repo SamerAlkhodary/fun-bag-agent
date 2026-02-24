@@ -1,4 +1,4 @@
 helmDepSpecs:
-    - manifests/chart/{{template-agent}}
+    - manifests/chart/fun-bag-agent
 pythonDepSpecs:
     - requirements.txt

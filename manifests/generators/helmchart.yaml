@@ -1,10 +1,10 @@
 apiVersion: qlik.com/v1
 kind: HelmChart
 metadata:
-  name: {{template-agent}}
+  name: fun-bag-agent
 chartHome: ../chart
-chartName: {{template-agent}}
-releaseName: {{template-agent}}
+chartName: fun-bag-agent
+releaseName: fun-bag-agent
 releaseNamespace: $(NAMESPACE)
 newChartVersion: $(VERSION)
 values:
